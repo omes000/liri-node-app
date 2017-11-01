@@ -106,3 +106,13 @@ This will read the random.txt file and search for a command and query in that fi
 #### random.txt
 
 In this file, you can input a search command for Spotify, Twitter, or OMDB, and then a query term surrounded by quotations. The command and query term must be separated by a comma (','). 
+
+For example, in random.txt you can have the following:
+
+```
+movie-this,"The Godfather"
+```
+
+## Author
+
+Umer Rathore
