@@ -22,7 +22,6 @@ Install the [Node package for Spotify](https://www.npmjs.com/package/node-spotif
 
 ```
 npm install node-spotify-api
-
 ```
 
 Follow the instructions from the npm page to get the API working. 
@@ -35,7 +34,6 @@ Install the [Twitter package](https://www.npmjs.com/package/twitter) via the fol
 
 ```
 npm install twitter
-
 ```
 
 Follow the instructions from the npm page to get the API working. 
@@ -63,7 +61,6 @@ To run the Spotify search, input the following into command line:
 
 ```
 node liri.js spotify-this-song 'Forgot About Dre'
-
 ```
 
 This returns relevant information about the song 'Forgot About Dre'.
@@ -74,7 +71,6 @@ The Twitter command can be run as below:
 
 ```
 node liri.js my-tweets
-
 ```
 
 This returns the latest 20 tweets from the user, or if the user has less than 20 tweets, all of the tweets.
@@ -83,7 +79,6 @@ Additionally, the user can specify how many tweets to return by the following:
 
 ```
 node liri.js my-tweets 10
-
 ```
 
 This returns the latest 10 tweets from the user, or if the user has less than 10 tweets, all of the user's tweets. 
@@ -94,7 +89,6 @@ The OMDB command can be run as below:
 
 ```
 node liri.js movie-this 'Pulp Fiction'
-
 ```
 
 This returns relevant information for the film 'Pulp Fiction'. 
@@ -105,7 +99,6 @@ The Do What it Says command can be run as below:
 
 ```
 node liri.js do-what-it-says
-
 ```
 
 This will read the random.txt file and search for a command and query in that file.
